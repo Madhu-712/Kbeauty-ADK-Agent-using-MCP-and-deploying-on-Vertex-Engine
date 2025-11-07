@@ -1,0 +1,12 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+mcp==1.0.0
+aiohttp==3.9.1
+beautifulsoup4==4.12.2
+requests==2.31.0
+google-cloud-aiplatform
+google-adk
+cloudpickle== 3.1.1
+google-cloud-aiplatform=1.123.0
+pydantic== 2.11.7
+zope.interface==8.0.1
