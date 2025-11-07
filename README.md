@@ -90,22 +90,22 @@ Ensure your local environment can authenticate with Google Cloud.
     GOOGLE_CLOUD_LOCATION=YOUR_GOOGLE_PROJECT_REGION
 
 5. **Interacting with the Agent**
-Once the server is running, you can interact with the agent by sending HTTP POST requests to its endpoint. You can use tools like curl or a simple Python script.
-Example Queries:
-Here are some example queries and how you might send them:
-Query about a product category:
-"query": "What are the best K-Beauty cleansers for oily skin?"
+   Once the server is running, you can interact with the agent by sending HTTP POST requests to its endpoint. You can use tools like curl or a simple Python script.
+   Example Queries:
+   Here are some example queries and how you might send them:
+   Query about a product category:
+   "query": "What are the best K-Beauty cleansers for oily skin?"
 
-Query about a specific ingredient:
-"query": "Tell me about Centella Asiatica in skincare.
+   Query about a specific ingredient:
+   "query": "Tell me about Centella Asiatica in skincare.
 
-Query about a routine step:
-"query": "What is the 10-step K-Beauty routine?"
+   Query about a routine step:
+   "query": "What is the 10-step K-Beauty routine?"
 
-Query about a brand with external context:
-"query": "Do you have information on the latest products from COSRX and their reviews?
+   Query about a brand with external context:
+   "query": "Do you have information on the latest products from COSRX and their reviews?
 
-The agent will process these queries using its MCP-driven logic, potentially augmenting its understanding with external data, and return a relevant response.
+   The agent will process these queries using its MCP-driven logic, potentially augmenting its understanding with external data, and return a relevant response.
 
 6.  **Setting up for deployment**
   **Create a Cloud Storage Bucket:**
